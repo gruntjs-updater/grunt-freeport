@@ -2,7 +2,12 @@
   "name": "grunt-freeport",
   "version": "0.1.1",
   "description": "Grunt task to get a free port number on localhost from specified range",
-  "keywords": [ "grunt", "gruntplugin", "port", "freeport" ],
+  "keywords": [
+    "grunt",
+    "gruntplugin",
+    "port",
+    "freeport"
+  ],
   "homepage": "https://github.com/deepsweet/grunt-freeport",
   "repository": {
     "type": "git",
@@ -17,7 +22,7 @@
     "portscanner": "^1.0.0"
   },
   "peerDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": ">=0.4.0"
   },
   "devDependencies": {
     "eslint": "^0.8.2",
